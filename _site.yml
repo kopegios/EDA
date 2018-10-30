@@ -1,0 +1,19 @@
+name: "YOUR NAME"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  title: "YOUR WEBSITE"                             # CHANGE HERE 
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-user 
+      href: about.html
+    - text: "Analysis"
+      icon: fa-heart
+      href: analysis.html
+output:
+  html_document:
+    theme: united
+    highlight: textmate
