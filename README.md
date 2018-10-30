@@ -9,4 +9,5 @@ This is a template for a basic GitHub Pages website produced with RMarkdown. Fol
 5. Change your website name and title in _site.yml.
 6. Build the site in RStudio (rmarkdown::render_site()).
 7. Commit changes (git commit -a) and push them to GitHub (git push origin master).
-8. Hope for the best. 
+8. Open your website at the URL in settings. 
+9. Hope for the best. 
