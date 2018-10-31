@@ -2,7 +2,7 @@
 title: "Analysis"
 ---
 
-```{r plot}
+```{r plot, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 
 x <- 1:100/10
