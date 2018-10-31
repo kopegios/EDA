@@ -11,7 +11,7 @@
 
 
 
-<title>About</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,9 +22,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -216,12 +213,26 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
 
 </div>
 
 
-<p>Hello world</p>
+<div id="githubpages-template" class="section level1">
+<h1>githubpages-template</h1>
+<p>This is a template for a basic GitHub Pages website produced with RMarkdown. Follow these instructions:</p>
+<ol style="list-style-type: decimal">
+<li>Fork this repository (top right).</li>
+<li>Rename it.</li>
+<li>Ensure GitHub Pages is enabled in settings and set this to master branch. Here you will find the URL of your website.</li>
+<li>Go back to your repo and click on Clone or Download (top right). Choose SSH (not HTTPS), and copy the remote URL.</li>
+<li>Start a new project in RStudio and choose Version Control -&gt; Git. Here, paste the remote URL under Repository URL. Name your project as usual and create project. This clones the forked repo ready to use.</li>
+<li>Change the name and website title in _site.yml.</li>
+<li>Build the site in RStudio (rmarkdown::render_site()).</li>
+<li>Commit changes (git commit -a) and push them to GitHub (git push origin master).</li>
+<li>Open your website at the URL found in your GitHub repository’s settings.</li>
+<li>Hope for the best.</li>
+</ol>
+</div>
 
 
 
