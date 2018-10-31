@@ -1,3 +1,13 @@
 ---
 title: "Analysis"
 ---
+
+```{r plot}
+library(tidyverse)
+
+x <- 1:100/10
+y <- sin(x)
+df <- data_frame(x, y)
+
+ggplot(df, aes(x, y)) + geom_line()
+```
