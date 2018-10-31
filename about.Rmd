@@ -1,4 +1,4 @@
 ---
-title: "About"
+title: "ABOUT"
 ---
-Hello world
+Hi! My name is Konstantinos Filippos Pegios!

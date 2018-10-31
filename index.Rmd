@@ -1,3 +1,4 @@
 ---
-title: "Home"
+title: "HOME"
 ---
+![this is a battery ](./icon.png)
